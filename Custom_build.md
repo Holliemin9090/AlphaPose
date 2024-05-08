@@ -29,3 +29,7 @@ pip install pytorch3d
 In the initial inference, there is also the cython_bbox issue due to numpy does not use float anymore after 1.20. The cython_bbox need to be updated and reinstalled
 see issue (https://github.com/MVIG-SJTU/AlphaPose/issues/1148)
 pip install git+https://github.com/valentin-fngr/cython_bbox.git 
+
+The yolov3 model need to be downloaded from this url (https://drive.usercontent.google.com/download?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC&export=download&authuser=0)
+
+Please see issue (https://github.com/MVIG-SJTU/AlphaPose/issues/1162)
