@@ -25,3 +25,7 @@ conda install -c fvcore -c iopath -c conda-forge fvcore iopath -y
 conda install -c bottler nvidiacub -y
 
 pip install pytorch3d
+
+In the initial inference, there is also the cython_bbox issue due to numpy does not use float anymore after 1.20. The cython_bbox need to be updated and reinstalled
+see issue (https://github.com/MVIG-SJTU/AlphaPose/issues/1148)
+pip install git+https://github.com/valentin-fngr/cython_bbox.git 
