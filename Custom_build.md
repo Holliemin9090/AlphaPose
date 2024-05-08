@@ -33,3 +33,9 @@ pip install git+https://github.com/valentin-fngr/cython_bbox.git
 The yolov3 model need to be downloaded from this url (https://drive.usercontent.google.com/download?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC&export=download&authuser=0)
 
 Please see issue (https://github.com/MVIG-SJTU/AlphaPose/issues/1162)
+
+Be careful with chumpy. It may have a numpy cannot import bool issue, for numpy>=1.24. use pip install git+https://github.com/mattloper/chumpy
+
+This will affect motionBert.
+
+See issue (https://github.com/mattloper/chumpy/issues/55)
